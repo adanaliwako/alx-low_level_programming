@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - check the code
@@ -8,5 +7,5 @@
  */
 int _isdigit(int c)
 {
-	return(c >= '0' && c<= '9')
+	return(c >= '0' && c <= '9');
 }
